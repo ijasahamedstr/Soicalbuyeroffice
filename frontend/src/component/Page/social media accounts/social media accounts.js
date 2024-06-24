@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from "react";
 import Slider from "react-slick";
+import './social media account.css';
 
 
 function Soicalaccount() {
@@ -14,6 +15,8 @@ function Soicalaccount() {
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1024,
@@ -51,18 +54,25 @@ function Soicalaccount() {
         <div className="col-12 col-sm-6 col-md-4 col-lg-3">
           <div className="p-3">
           <div className='feature'>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem', backgroundColor:'#F2F3F4'}}>
             <Card.Img variant="top" src="https://usr.dokan-cdn.com/instagram.png" />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>@Ijas Ahamed</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+              <span><div class="card__author  card__author--verified  ">
+              <img src="https://usr.dokan-cdn.com/public/avatars/e334bb8a73397609e060efed2fb27f96.gif" alt="" /><a href="https://usr.gg/meshari">@Ijas Ahamed</a></div></span>
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="#">Card Link</Card.Link>
-              <Card.Link href="#">Another Link</Card.Link>
+              <Card.Link href="#"><div className='card__likes'><span className='card__likes1'>🚀بوست</span></div></Card.Link>
+              <Card.Link href="#">
+              <div class="card__price">
+              <span>السعر</span>
+              <span dir="rtl">
+              <span class="account_price_previe">499$</span>
+              </span>
+              </div>
+              </Card.Link>
             </Card.Body>
           </Card>
           </div>
@@ -71,105 +81,162 @@ function Soicalaccount() {
         <div className="col-12 col-sm-6 col-md-4 col-lg-3">
         <div className="p-3">
         <div className='feature'>
-        <Card style={{ width: '18rem',border:'none'}}>
-          <Card.Body>
-            <Card.Title className='feature' style={{ display: 'flex'}}><span className='feature__icon'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,7H18V6a3,3,0,0,0-3-3H5A3,3,0,0,0,2,6H2V18a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V10A3,3,0,0,0,19,7ZM5,5H15a1,1,0,0,1,1,1V7H5A1,1,0,0,1,5,5ZM20,15H19a1,1,0,0,1,0-2h1Zm0-4H19a3,3,0,0,0,0,6h1v1a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V8.83A3,3,0,0,0,5,9H19a1,1,0,0,1,1,1Z"></path></svg></span><div className='eature__title'>المحفظة</div></Card.Title><br></br>
-            <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
-            <Card.Text>
-            يمكنك سحب مبالغ المبيعات الخاصة بك من خلال طريقة الدفع المفضلة لديك كالتحويل البنكي والعملات الرقمية وبايبال
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        </div>
-        </div>
-      </div>
-      <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-        <div className="p-3">
-        <div className='feature'>
-        <Card style={{ width: '18rem',border:'none'}}>
-          <Card.Body>
-            <Card.Title className='feature' style={{ display: 'flex'}}><span className='feature__icon'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,7H18V6a3,3,0,0,0-3-3H5A3,3,0,0,0,2,6H2V18a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V10A3,3,0,0,0,19,7ZM5,5H15a1,1,0,0,1,1,1V7H5A1,1,0,0,1,5,5ZM20,15H19a1,1,0,0,1,0-2h1Zm0-4H19a3,3,0,0,0,0,6h1v1a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V8.83A3,3,0,0,0,5,9H19a1,1,0,0,1,1,1Z"></path></svg></span><div className='eature__title'>المحفظة</div></Card.Title><br></br>
-            <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
-            <Card.Text>
-            يمكنك سحب مبالغ المبيعات الخاصة بك من خلال طريقة الدفع المفضلة لديك كالتحويل البنكي والعملات الرقمية وبايبال
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        <Card style={{ width: '18rem', backgroundColor:'#F2F3F4'}}>
+            <Card.Img variant="top" src="https://usr.dokan-cdn.com/snapchat.png" />
+            <Card.Body>
+              <Card.Title>@Ijas Ahamed</Card.Title>
+              <Card.Text>
+              <span><div class="card__author  card__author--verified  ">
+              <img src="https://usr.dokan-cdn.com/public/avatars/e334bb8a73397609e060efed2fb27f96.gif" alt="" /><a href="https://usr.gg/meshari">@Ijas Ahamed</a></div></span>
+              </Card.Text>
+            </Card.Body>
+            <Card.Body>
+              <Card.Link href="#"><div className='card__likes'><span className='card__likes1'>🚀بوست</span></div></Card.Link>
+              <Card.Link href="#">
+              <div class="card__price">
+              <span>السعر</span>
+              <span dir="rtl">
+              <span class="account_price_previe">499$</span>
+              </span>
+              </div>
+              </Card.Link>
+            </Card.Body>
+          </Card>
         </div>
         </div>
       </div>
         <div className="col-12 col-sm-6 col-md-4 col-lg-3">
         <div className="p-3">
         <div className='feature'>
-        <Card style={{ width: '18rem',border:'none'}}>
-          <Card.Body>
-            <Card.Title className='feature' style={{ display: 'flex'}}><span className='feature__icon'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,7H18V6a3,3,0,0,0-3-3H5A3,3,0,0,0,2,6H2V18a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V10A3,3,0,0,0,19,7ZM5,5H15a1,1,0,0,1,1,1V7H5A1,1,0,0,1,5,5ZM20,15H19a1,1,0,0,1,0-2h1Zm0-4H19a3,3,0,0,0,0,6h1v1a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V8.83A3,3,0,0,0,5,9H19a1,1,0,0,1,1,1Z"></path></svg></span><div className='eature__title'>المحفظة</div></Card.Title><br></br>
-            <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
-            <Card.Text>
-            يمكنك سحب مبالغ المبيعات الخاصة بك من خلال طريقة الدفع المفضلة لديك كالتحويل البنكي والعملات الرقمية وبايبال
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        <Card style={{ width: '18rem', backgroundColor:'#F2F3F4'}}>
+            <Card.Img variant="top" src="https://usr.dokan-cdn.com/tiktok.png" />
+            <Card.Body>
+              <Card.Title>@Ijas Ahamed</Card.Title>
+              <Card.Text>
+              <span><div class="card__author  card__author--verified  ">
+              <img src="https://usr.dokan-cdn.com/public/avatars/e334bb8a73397609e060efed2fb27f96.gif" alt="" /><a href="https://usr.gg/meshari">@Ijas Ahamed</a></div></span>
+              </Card.Text>
+            </Card.Body>
+            <Card.Body>
+              <Card.Link href="#"><div className='card__likes'><span className='card__likes1'>🚀بوست</span></div></Card.Link>
+              <Card.Link href="#">
+              <div class="card__price">
+              <span>السعر</span>
+              <span dir="rtl">
+              <span class="account_price_previe">499$</span>
+              </span>
+              </div>
+              </Card.Link>
+            </Card.Body>
+          </Card>
         </div>
         </div>
       </div>
       <div className="col-12 col-sm-6 col-md-4 col-lg-3">
         <div className="p-3">
         <div className='feature'>
-        <Card style={{ width: '18rem',border:'none'}}>
-          <Card.Body>
-            <Card.Title className='feature' style={{ display: 'flex'}}><span className='feature__icon'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,7H18V6a3,3,0,0,0-3-3H5A3,3,0,0,0,2,6H2V18a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V10A3,3,0,0,0,19,7ZM5,5H15a1,1,0,0,1,1,1V7H5A1,1,0,0,1,5,5ZM20,15H19a1,1,0,0,1,0-2h1Zm0-4H19a3,3,0,0,0,0,6h1v1a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V8.83A3,3,0,0,0,5,9H19a1,1,0,0,1,1,1Z"></path></svg></span><div className='eature__title'>المحفظة</div></Card.Title><br></br>
-            <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
-            <Card.Text>
-            يمكنك سحب مبالغ المبيعات الخاصة بك من خلال طريقة الدفع المفضلة لديك كالتحويل البنكي والعملات الرقمية وبايبال
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        <Card style={{ width: '18rem', backgroundColor:'#F2F3F4'}}>
+            <Card.Img variant="top" src="https://usr.dokan-cdn.com/instagram.png" />
+            <Card.Body>
+              <Card.Title>@Ijas Ahamed</Card.Title>
+              <Card.Text>
+              <span><div class="card__author  card__author--verified  ">
+              <img src="https://usr.dokan-cdn.com/public/avatars/e334bb8a73397609e060efed2fb27f96.gif" alt="" /><a href="https://usr.gg/meshari">@Ijas Ahamed</a></div></span>
+              </Card.Text>
+            </Card.Body>
+            <Card.Body>
+              <Card.Link href="#"><div className='card__likes'><span className='card__likes1'>🚀بوست</span></div></Card.Link>
+              <Card.Link href="#">
+              <div class="card__price">
+              <span>السعر</span>
+              <span dir="rtl">
+              <span class="account_price_previe">499$</span>
+              </span>
+              </div>
+              </Card.Link>
+            </Card.Body>
+          </Card>
         </div>
         </div>
       </div>
       <div className="col-12 col-sm-6 col-md-4 col-lg-3">
         <div className="p-3">
         <div className='feature'>
-        <Card style={{ width: '18rem',border:'none'}}>
-          <Card.Body>
-            <Card.Title className='feature' style={{ display: 'flex'}}><span className='feature__icon'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,7H18V6a3,3,0,0,0-3-3H5A3,3,0,0,0,2,6H2V18a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V10A3,3,0,0,0,19,7ZM5,5H15a1,1,0,0,1,1,1V7H5A1,1,0,0,1,5,5ZM20,15H19a1,1,0,0,1,0-2h1Zm0-4H19a3,3,0,0,0,0,6h1v1a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V8.83A3,3,0,0,0,5,9H19a1,1,0,0,1,1,1Z"></path></svg></span><div className='eature__title'>المحفظة</div></Card.Title><br></br>
-            <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
-            <Card.Text>
-            يمكنك سحب مبالغ المبيعات الخاصة بك من خلال طريقة الدفع المفضلة لديك كالتحويل البنكي والعملات الرقمية وبايبال
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        <Card style={{ width: '18rem', backgroundColor:'#F2F3F4'}}>
+            <Card.Img variant="top" src="https://usr.dokan-cdn.com/tiktok.png" />
+            <Card.Body>
+              <Card.Title>@Ijas Ahamed</Card.Title>
+              <Card.Text>
+              <span><div class="card__author  card__author--verified  ">
+              <img src="https://usr.dokan-cdn.com/public/avatars/e334bb8a73397609e060efed2fb27f96.gif" alt="" /><a href="https://usr.gg/meshari">@Ijas Ahamed</a></div></span>
+              </Card.Text>
+            </Card.Body>
+            <Card.Body>
+              <Card.Link href="#"><div className='card__likes'><span className='card__likes1'>🚀بوست</span></div></Card.Link>
+              <Card.Link href="#">
+              <div class="card__price">
+              <span>السعر</span>
+              <span dir="rtl">
+              <span class="account_price_previe">499$</span>
+              </span>
+              </div>
+              </Card.Link>
+            </Card.Body>
+          </Card>
         </div>
         </div>
       </div>
       <div className="col-12 col-sm-6 col-md-4 col-lg-3">
         <div className="p-3">
         <div className='feature'>
-        <Card style={{ width: '18rem',border:'none'}}>
-          <Card.Body>
-            <Card.Title className='feature' style={{ display: 'flex'}}><span className='feature__icon'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,7H18V6a3,3,0,0,0-3-3H5A3,3,0,0,0,2,6H2V18a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V10A3,3,0,0,0,19,7ZM5,5H15a1,1,0,0,1,1,1V7H5A1,1,0,0,1,5,5ZM20,15H19a1,1,0,0,1,0-2h1Zm0-4H19a3,3,0,0,0,0,6h1v1a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V8.83A3,3,0,0,0,5,9H19a1,1,0,0,1,1,1Z"></path></svg></span><div className='eature__title'>المحفظة</div></Card.Title><br></br>
-            <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
-            <Card.Text>
-            يمكنك سحب مبالغ المبيعات الخاصة بك من خلال طريقة الدفع المفضلة لديك كالتحويل البنكي والعملات الرقمية وبايبال
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        <Card style={{ width: '18rem', backgroundColor:'#F2F3F4'}}>
+            <Card.Img variant="top" src="https://usr.dokan-cdn.com/snapchat.png" />
+            <Card.Body>
+              <Card.Title>@Ijas Ahamed</Card.Title>
+              <Card.Text>
+              <span><div class="card__author  card__author--verified  ">
+              <img src="https://usr.dokan-cdn.com/public/avatars/e334bb8a73397609e060efed2fb27f96.gif" alt="" /><a href="https://usr.gg/meshari">@Ijas Ahamed</a></div></span>
+              </Card.Text>
+            </Card.Body>
+            <Card.Body>
+              <Card.Link href="#"><div className='card__likes'><span className='card__likes1'>🚀بوست</span></div></Card.Link>
+              <Card.Link href="#">
+              <div class="card__price">
+              <span>السعر</span>
+              <span dir="rtl">
+              <span class="account_price_previe">499$</span>
+              </span>
+              </div>
+              </Card.Link>
+            </Card.Body>
+          </Card>
         </div>
         </div>
       </div>
       <div className="col-12 col-sm-6 col-md-4 col-lg-3">
         <div className="p-3">
         <div className='feature'>
-        <Card style={{ width: '18rem',border:'none'}}>
-          <Card.Body>
-            <Card.Title className='feature' style={{ display: 'flex'}}><span className='feature__icon'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,7H18V6a3,3,0,0,0-3-3H5A3,3,0,0,0,2,6H2V18a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V10A3,3,0,0,0,19,7ZM5,5H15a1,1,0,0,1,1,1V7H5A1,1,0,0,1,5,5ZM20,15H19a1,1,0,0,1,0-2h1Zm0-4H19a3,3,0,0,0,0,6h1v1a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V8.83A3,3,0,0,0,5,9H19a1,1,0,0,1,1,1Z"></path></svg></span><div className='eature__title'>المحفظة</div></Card.Title><br></br>
-            <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
-            <Card.Text>
-            يمكنك سحب مبالغ المبيعات الخاصة بك من خلال طريقة الدفع المفضلة لديك كالتحويل البنكي والعملات الرقمية وبايبال
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        <Card style={{ width: '18rem', backgroundColor:'#F2F3F4'}}>
+            <Card.Img variant="top" src="https://usr.dokan-cdn.com/instagram.png" />
+            <Card.Body>
+              <Card.Title>@Ijas Ahamed</Card.Title>
+              <Card.Text>
+              <span><div class="card__author  card__author--verified  ">
+              <img src="https://usr.dokan-cdn.com/public/avatars/e334bb8a73397609e060efed2fb27f96.gif" alt="" /><a href="https://usr.gg/meshari">@Ijas Ahamed</a></div></span>
+              </Card.Text>
+            </Card.Body>
+            <Card.Body>
+              <Card.Link href="#"><div className='card__likes'><span className='card__likes1'>🚀بوست</span></div></Card.Link>
+              <Card.Link href="#">
+              <div class="card__price">
+              <span>السعر</span>
+              <span dir="rtl">
+              <span class="account_price_previe">499$</span>
+              </span>
+              </div>
+              </Card.Link>
+            </Card.Body>
+          </Card>
         </div>
         </div>
       </div>

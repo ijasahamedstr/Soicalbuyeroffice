@@ -1,11 +1,70 @@
-.Card {
+.card__author {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.card__author img {
+    display: block;
+    overflow: hidden;
+    width: 40px !important;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.sellers-list__author img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    overflow: hidden;
+    width: 60px !important;
+    height: 60px;
+    border-radius: 16px;
+}
+.card {
+    margin-top: 20px;
+    border-radius: 16px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    border: 1px solid #222227;
+    background-color: #16151a;
+}
+
+.card__author--verified:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #fff;
+    bottom: -2px;
+    left: 24px;
+    border-radius: 50%;
+    /* background: url(../img/verified.svg) no-repeat center #2f80ed; */
+    background-size: 14px auto;
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+/* .Card {
     background: transparent;
     border-style: solid;
     border-width: 4px 4px 4px 4px;
     border-color: Red;
     border-radius: 0.3rem;
-}
-
+} */
 .feature {
     display: flex;
     flex-direction: row;
@@ -55,4 +114,65 @@
     margin-bottom: 0;
     margin-left: 15px;
     width: calc(100% - 65px);
+}
+
+.card__likes {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    float: left;
+}
+
+.card__likes1 {
+    margin-top: 15px;
+    color: #ffffff;
+    padding: 3px 15px;
+    font-size: 10px;
+    text-transform: uppercase;
+    background: -webkit-gradient(linear, left top, right top, from(#e24997), to(#2d2ed4));
+    background: linear-gradient(to right, #e24997, #2d2ed4);
+    display: inline-block;
+    margin-bottom: 0.4rem;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.card__price {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.card__price span:first-child {
+    font-size: 14px;
+    line-height: 100%;
+    color: #2d2ed4;
+}
+
+.card__price span:first-child {
+    font-size: 15px;
+    line-height: 100%;
+    color: #2d2ed4;
+    margin-top: 10px;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    border-top: 1px solid #222227;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.card__price {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
