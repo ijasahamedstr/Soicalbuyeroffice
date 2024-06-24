@@ -10,10 +10,10 @@ function Soicalaccount() {
   const marginLeftValue = '15px', marginTopValue = '50px',marginBottomValue = '20px';
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
     initialSlide: 0,
     autoplay: true,
     autoplaySpeed: 2000,
