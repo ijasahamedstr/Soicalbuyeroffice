@@ -44,7 +44,7 @@ function HeroImage() {
 
  return (
    <div className="p-7 text-center w-screen h-screen text-white" style={{
-    backgroundImage: "url('https://usr.dokan-cdn.com/img/home/home.png')", height: 460, 
+    backgroundImage: "url('https://usr.dokan-cdn.com/img/home/home.png')", height: 500, 
     backgroundColor: "#3D3D3D",marginTop: -24, paddingTop: '45px',fontFamily:'Noto Kufi Arabic'}}>
      <div class="container mx-auto flex py-24 items-center justify-center flex-col">
        <div class="text-center lg:w-5/12 w-full">

@@ -7,7 +7,7 @@ import './social media account.css';
 
 
 function Soicalaccount() {
-  const marginLeftValue = '15px', marginTopValue = '50px',marginBottomValue = '50px';
+  const marginLeftValue = '15px', marginTopValue = '50px',marginBottomValue = '20px';
   var settings = {
     dots: true,
     infinite: false,
