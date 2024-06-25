@@ -50,7 +50,7 @@ function Game() {
       <div className="container">
       <div className="row">
       <div className="slider-container">
-      <div style={{ marginLeft: marginLeftValue,marginTop:marginTopValue,marginBottom:marginBottomValue}}><h2>🚀 حسابات ألعاب مميزة</h2></div>
+      <div style={{ marginLeft: marginLeftValue,marginTop:marginTopValue,marginBottom:marginBottomValue}}><h2 className='entry-title'>🚀 حسابات ألعاب مميزة</h2></div>
       <Slider {...settings}>
         <div className="col-12 col-sm-6 col-md-4 col-lg-3">
           <div className="p-3">
