@@ -1,23 +1,44 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import {Row, Col } from 'react-bootstrap';
 
 const JobList = ({ jobs }) => {
   return (
-    <div>
-      {jobs.length === 0 ? (
+    <Row>
+          {jobs.length === 0 ? (
         <p>No jobs found.</p>
-      ) : (
-        jobs.map(job => (
-          <Card key={job.id} className="mb-3">
-            <Card.Body>
-              <Card.Title>{job.title}</Card.Title>
-              <Card.Text>{job.location} | {job.type} | {job.level} | {job.language}</Card.Text>
-            </Card.Body>
-          </Card>
-        ))
-      )}
-    </div>
+            ) : (
+                jobs.map(job => (
+                <Col md={4}>   
+                <div>
+                <Card key={job.id}>
+                <Card.Img variant="top" src="https://usr.dokan-cdn.com/instagram.png" />
+                <Card.Body>
+                <Card.Title>@Ijas Ahamed</Card.Title>
+                <Card.Text>
+                <span><div class="card__author  card__author--verified  ">
+                <img src="https://usr.dokan-cdn.com/public/avatars/e334bb8a73397609e060efed2fb27f96.gif" alt="" /><a href="https://usr.gg/meshari">@Ijas Ahamed</a></div></span>
+                </Card.Text>
+                </Card.Body>
+                <Card.Body>
+                <Card.Link href="#"><div className='card__likes'><span className='card__likes1'>🚀بوست</span></div></Card.Link>
+                <Card.Link href="#">
+                <div class="card__price">
+                <span>السعر</span>
+                <span dir="rtl">
+                <span class="account_price_previe">499$</span>
+                </span>
+                </div>
+                </Card.Link>
+                </Card.Body>
+                </Card>
+                </div>
+                </Col>
+                ))
+            )}
+      </Row>
   );
 };
 
 export default JobList;
+

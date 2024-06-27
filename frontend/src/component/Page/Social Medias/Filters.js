@@ -11,20 +11,20 @@ const Filters = ({ filters, onFilterChange }) => {
   return (
     <Form>
       <Form.Group className="mb-3">
-        <Form.Label>Location:</Form.Label>
-        <Form.Control type="text" name="location" value={filters.location} onChange={handleFilterChange} />
+        <Form.Label>نوع الحساب:</Form.Label>
+        <Form.Control style={{width:'330px'}} type="text" name="location" value={filters.location} onChange={handleFilterChange} />
       </Form.Group>
       <Form.Group className="mb-3">
         <Form.Label>Type:</Form.Label>
-        <Form.Control type="text" name="type" value={filters.type} onChange={handleFilterChange} />
+        <Form.Control style={{width:'330px'}} type="text" name="type" value={filters.type} onChange={handleFilterChange} />
       </Form.Group>
       <Form.Group className="mb-3">
         <Form.Label>Level:</Form.Label>
-        <Form.Control type="text" name="level" value={filters.level} onChange={handleFilterChange} />
+        <Form.Control style={{width:'330px'}} type="text" name="level" value={filters.level} onChange={handleFilterChange} />
       </Form.Group>
       <Form.Group className="mb-3">
         <Form.Label>Language:</Form.Label>
-        <Form.Control type="text" name="language" value={filters.language} onChange={handleFilterChange} />
+        <Form.Control style={{width:'330px'}} type="text" name="language" value={filters.language} onChange={handleFilterChange} />
       </Form.Group>
     </Form>
   );

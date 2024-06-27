@@ -5,8 +5,10 @@ import Filters from './Filters';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import './Social Medias.css';
 
 function Social() {
+  const marginTopValue = '50px',marginBottomValue = '20px';
   const [jobs, setJobs] = useState([]);
   const [filters, setFilters] = useState({
     location: '',
@@ -23,6 +25,8 @@ function Social() {
         const mockData = [
           { id: 1, title: 'Frontend Developer', location: 'Remote', type: 'Full-time', level: 'Senior', language: 'JavaScript' },
           { id: 2, title: 'Backend Developer', location: 'New York', type: 'Part-time', level: 'Junior', language: 'Python' },
+          { id: 3, title: 'Backend Developer', location: 'New York', type: 'Part-time', level: 'Junior', language: 'Python' },
+          { id: 4, title: 'Backend Developer', location: 'New York', type: 'Part-time', level: 'Junior', language: 'Python' },
           // Add more mock data or fetch from API
         ];
         setJobs(mockData);
@@ -50,6 +54,7 @@ function Social() {
     <Container>
       {/* Stack the columns on mobile by making one full-width and the other half-width */}
       <Row>
+      <div style={{marginTop:marginTopValue,marginBottom:marginBottomValue}}><h2 className='entry-title'>حسابات التواصل الإجتماعي</h2></div>
         <Col xs={6} md={4}>
         <Filters filters={filters} onFilterChange={handleFilterChange} />
         </Col>
