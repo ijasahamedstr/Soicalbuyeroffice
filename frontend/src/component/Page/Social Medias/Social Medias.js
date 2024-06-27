@@ -2,6 +2,9 @@
 import React, { useState, useEffect } from 'react';
 import JobList from './JobList';
 import Filters from './Filters';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Social() {
   const [jobs, setJobs] = useState([]);
@@ -44,11 +47,17 @@ function Social() {
 
     return (
       <>
-      <div className="container mt-5">
-      <h1 className="text-center mb-4">Job Listings</h1>
-      <Filters filters={filters} onFilterChange={handleFilterChange} />
-      <JobList jobs={filteredJobs} />
-    </div>
+    <Container>
+      {/* Stack the columns on mobile by making one full-width and the other half-width */}
+      <Row>
+        <Col xs={6} md={4}>
+        <Filters filters={filters} onFilterChange={handleFilterChange} />
+        </Col>
+        <Col xs={12} md={8}>
+        <JobList jobs={filteredJobs} />
+        </Col>
+      </Row>
+    </Container>
       </>
     );
   }
