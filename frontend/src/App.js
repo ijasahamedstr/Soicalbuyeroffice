@@ -10,6 +10,7 @@ import Market from "./component/Page/Market History/market history";
 import Leaderboard from "./component/Page/Leaderboard/Leaderboard";
 import Store from "./component/Page/USRGG Store/USRGG Store";
 import './css/main.css';
+import Footer from "./component/Page/Footer/Footer";
 
 
 
@@ -31,6 +32,8 @@ function App() {
       <Route path="/USRGG Store" element={<Store/>}/>
     </Routes>
     </Router>
+    <Footer/>
+
 
     </>
   );
