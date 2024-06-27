@@ -6,7 +6,7 @@ const JobList = ({ jobs }) => {
   return (
     <Row>
           {jobs.length === 0 ? (
-        <p>No jobs found.</p>
+            <p style={{fontSize:'20px'}}>لم يتم العثور على حساب..</p>
             ) : (
                 jobs.map(job => (
                 <Col md={4}>   
