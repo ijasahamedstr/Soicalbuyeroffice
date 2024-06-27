@@ -79,4 +79,12 @@
     color: #fff;
   }
 
+  .footer-icons i{
+    padding: 0.5rem;
+    background-color: #e1e1e1;
+    color: #f60838;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+  }
+
   

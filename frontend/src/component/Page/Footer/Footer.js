@@ -14,12 +14,12 @@ const Footer = () => {
                             <p style={{fontFamily:'Noto Kufi Arabic'}}>
                             منصة يوزر
                             هي أفضل منصة لبيع وشراء حسابات مواقع التواصل الأجتماعي بسهولة تامة وأمان عالي وهي تابعة لشركة تطبيق دُكان لتقنية المعلومات المسجلة في وزارة التجارة بالمملكة العربية السعودية</p>
-                            <div className="footer-icons">
+                            {/* <div className="footer-icons">
                                 <i class="fa-brands fa-facebook"></i>
                                 <i class="fa-brands fa-twitter"></i>
                                 <i class="fa-brands fa-instagram"></i>
                                 <i class="fa-brands fa-linkedin-in"></i>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-md-6 col-lg-3 col-12 ft-2">
                             <h5>Quick Links</h5>
