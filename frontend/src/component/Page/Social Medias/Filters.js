@@ -19,23 +19,23 @@ const Filters = ({ filters, onFilterChange }) => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-          <Form>
+          <Form style={{width:'300px'}}>
         <h4 style={{marginTop:marginTopValue,marginBottom:marginBottomValue,color:'rgb(97, 100, 255)'}}>البحث المخصص</h4>
         <Form.Group className="mb-3">
           <Form.Label>نوع الحساب:</Form.Label>
-          <Form.Control style={{width:'300px'}} type="text" name="location" value={filters.location} onChange={handleFilterChange} />
+          <Form.Control  type="text" name="location" value={filters.location} onChange={handleFilterChange} />
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>كلمة البحث:</Form.Label>
-          <Form.Control style={{width:'300px'}} type="text" name="type" value={filters.type} onChange={handleFilterChange} />
+          <Form.Control type="text" name="type" value={filters.type} onChange={handleFilterChange} />
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>إخفاء بائعين:</Form.Label>
-          <Form.Control style={{width:'300px'}} type="text" name="level" value={filters.level} onChange={handleFilterChange} />
+          <Form.Control  type="text" name="level" value={filters.level} onChange={handleFilterChange} />
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>الفئة السعرية:</Form.Label>
-          <Form.Control style={{width:'300px'}} type="text" name="language" value={filters.language} onChange={handleFilterChange} />
+          <Form.Control type="text" name="language" value={filters.language} onChange={handleFilterChange} />
         </Form.Group>
       </Form>
           </Nav>
