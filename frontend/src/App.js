@@ -26,8 +26,8 @@ function App() {
       <Route path="/التواصل الإجتماعي" element={<Social/>}/>
       <Route path="/الألعاب" element={<Gamesaccount/>}/>
       <Route path="/الخدمات" element={<Servicesuser/>}/>
-      <Route path="/Users" element={<Market/>}/>
-      <Route path="/طلبات المستخدمين" element={<Users/>}/>
+      <Route path="/الأعضاء" element={<Users/>}/>
+      <Route path="/طلبات المستخدمين" element={<Market/>}/>
       <Route path="/Leaderboard" element={<Leaderboard/>}/>
       <Route path="/USRGG Store" element={<Store/>}/>
     </Routes>
