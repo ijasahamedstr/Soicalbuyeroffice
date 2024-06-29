@@ -14,7 +14,7 @@ const JobList = ({ jobs }) => {
             <p style={{fontSize:'20px'}}>لم يتم العثور على حساب..</p>
             ) : (
                 jobs.map(job => (
-                <Col md={4}>   
+                <Col className='col-12 col-sm-6 col-md-4 col-lg-3'>   
                 <div>
                 <div>
                 <div className="user-card">
