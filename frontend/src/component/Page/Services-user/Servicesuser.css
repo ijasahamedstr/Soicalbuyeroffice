@@ -77,3 +77,45 @@
     border-radius: 2px;
     background: #6164ff;
 }
+
+.post__meta {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+}
+
+.post__date {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 13px;
+    color: #17202A ;
+}
+
+.post__date svg {
+    fill: #17202A ;
+    width: 16px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.post__comments {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 13px;
+    color: #17202A ;
+    font-weight: 700;
+}
+
+.centered-form {
+    justify-content: center;
+    align-items: center;
+  }
+  
