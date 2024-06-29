@@ -25,21 +25,8 @@ const Filters = ({ filters, onFilterChange }) => {
           <Form.Label>نوع الحساب:</Form.Label>
           <Form.Control  type="text" name="location" value={filters.location} onChange={handleFilterChange} />
         </Form.Group>
-        <Form.Group className="mb-3">
-          <Form.Label>كلمة البحث:</Form.Label>
-          <Form.Control type="text" name="type" value={filters.type} onChange={handleFilterChange} />
-        </Form.Group>
-        <Form.Group className="mb-3">
-          <Form.Label>إخفاء بائعين:</Form.Label>
-          <Form.Control  type="text" name="level" value={filters.level} onChange={handleFilterChange} />
-        </Form.Group>
-        <Form.Group className="mb-3">
-          <Form.Label>الفئة السعرية:</Form.Label>
-          <Form.Control type="text" name="language" value={filters.language} onChange={handleFilterChange} />
-        </Form.Group>
       </Form>
           </Nav>
-  
         </Navbar.Collapse>
       </Container>
     </Navbar>

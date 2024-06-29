@@ -9,7 +9,7 @@ const JobList = ({ jobs }) => {
             <p style={{fontSize:'20px'}}>لم يتم العثور على حساب..</p>
             ) : (
                 jobs.map(job => (
-                <Col md={4}>   
+                <Col className='col-12 col-sm-6 col-md-4 col-lg-3'>   
                 <div>
                 <Card style={{backgroundColor:'#F2F3F4'}} key={job.id}>
                 <Card.Img variant="top" src="https://usr.dokan-cdn.com/instagram.png" />

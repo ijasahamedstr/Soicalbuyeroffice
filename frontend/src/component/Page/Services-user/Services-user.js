@@ -55,10 +55,12 @@ function Servicesuser() {
       {/* Stack the columns on mobile by making one full-width and the other half-width */}
       <Row>
       <div style={{marginTop:marginTopValue,marginBottom:marginBottomValue}}><h2 className='entry-title'>حسابات التواصل الإجتماعي</h2></div>
-        <Col xs={6} md={4} style={{backgroundColor:'#FFFFFF'}}>
+        <Col style={{backgroundColor:'#FFFFFF'}}>
         <Filters filters={filters} onFilterChange={handleFilterChange} />
         </Col>
-        <Col xs={12} md={8}>
+      </Row>
+      <Row>
+        <Col>
         <JobList jobs={filteredJobs} />
         </Col>
       </Row>
